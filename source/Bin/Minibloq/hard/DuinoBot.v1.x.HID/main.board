@@ -124,6 +124,14 @@
 			<s>"</s><s>outputPath::</s><s>/main.cpp.elf"</s>
 		</cmd>
 	</build>
+	<deploy>
+		<cmd>
+			<s>componentsRepositoryPath::</s>
+            <s>/tools/hidUploader/v1.0/hid_bootloader_cli.Linux </s>
+			<s>-mmcu=atmega32u4 -r -v "</s>
+            <s>outputPath::</s><s>/main.cpp.hex"</s>
+		</cmd>
+	</deploy>
 	<instances>
 		<serial0 instanceType="Serial"/>
 		<serial1 instanceType="Serial"/>
