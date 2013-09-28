@@ -1,6 +1,4 @@
 #include <mbq.h>
-#include <PingIRReceiver.h>
-
 void setup()
 {
 	initBoard();
@@ -8,7 +6,7 @@ void setup()
 	while(true)
 	{
 		DigitalWrite(D13_LED, true);
-		delay(300);
+		delay(900);
 		DigitalWrite(D13_LED, false);
 		delay(300);
 	}
