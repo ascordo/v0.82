@@ -94,6 +94,7 @@ class DCMotor
 			return braked;
 		}
 };
-
-//extern DCMotor motor0,motor1;
+#if defined (WIN32)
+extern DCMotor motor0,motor1;
+#endif
 #endif
