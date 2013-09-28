@@ -95,5 +95,5 @@ class DCMotor
 		}
 };
 
-extern DCMotor motor0,motor1;
+//extern DCMotor motor0,motor1;
 #endif

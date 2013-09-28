@@ -14,7 +14,7 @@
 		<linux_i386_lang>avrlinux/i386/v4.3.5/bin</linux_i386_lang>
 		<linux_i386_corePath>Arduino.v0022</linux_i386_corePath>
 		<linux_i386_core>mega168.a</linux_i386_core>
-		<linux_amd64_lang>avrlinux/i386/v4.3.5/bin</linux_amd64_lang>
+		<linux_amd64_lang>avrlinux/amd64/v4.3.5/bin</linux_amd64_lang>
 		<linux_amd64_corePath>Arduino.v0022</linux_amd64_corePath>
 		<linux_amd64_core>mega168.a</linux_amd64_core>
 		<outputMainFileExtension>ino</outputMainFileExtension>
@@ -56,6 +56,7 @@
 		<s>	pinMode(A5, INPUT);&#10;&#10;</s>
 		<s>	//Uses the analog input 0, that may have the same value in some designs, but it's not so prabably:&#10;</s>
 		<s>	randomSeed(analogRead(0));&#10;&#10;</s>
+		<s>	motor1.setClockwise(false);&#10;</s>
 	</initBoardCode>
 	<initCode>
 		<s>#include &lt;mbq.h&gt;&#10;</s>
